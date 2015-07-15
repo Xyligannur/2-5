@@ -65,18 +65,18 @@ class control_page extends control_base
 		die();
 	}
 	
-	$title = $_POST['title'];
-	$short = $_POST['short'];
-	$content = $_POST['content'];
-	$error = true;
-	
+		$title = $_POST['title'];
+		$short = $_POST['short'];
+		$content = $_POST['content'];
+		$error = true;
+		
 	}else{
 
-	$title = '';
-	$short = '';
-	$content = '';
-	$error = false;
-	}
+		$title = '';
+		$short = '';
+		$content = '';
+		$error = false;
+		}
 		$this->content = $this->Template('template/v_add.php');	
 	}
 }
